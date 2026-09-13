@@ -1,3 +1,9 @@
+<img width="1917" height="1078" alt="Screenshot 2026-09-13 172435" src="https://github.com/user-attachments/assets/f5eb7dde-7450-40a0-8c2f-d48c05003cf0" />
+<img width="1876" height="1057" alt="Screenshot 2026-09-13 172413" src="https://github.com/user-attachments/assets/c1ee042b-9408-4c79-a1bd-5cc0598afcc3" />
+<img width="1916" height="1077" alt="Screenshot 2026-09-13 172400" src="https://github.com/user-attachments/assets/46ee0982-dad1-410f-9297-675014e896a8" />
+
+
+
 # UPI Offline Mesh — Demo
 
 A Spring Boot backend that demonstrates **offline UPI payments routed through a Bluetooth-style mesh network**. You're in a basement with zero connectivity. You send your friend ₹500. Your phone encrypts the payment, broadcasts it to nearby phones, and the packet hops device-to-device until *some* phone walks outside, gets 4G, and silently uploads it to this backend. The backend decrypts, deduplicates, and settles.
@@ -5,6 +11,29 @@ A Spring Boot backend that demonstrates **offline UPI payments routed through a 
 This repo is the **server side** of that system, plus a software simulator of the mesh so you can demo the whole flow on a single laptop without any real Bluetooth hardware.
 
 ---
+🛠️ Tools & Technologies
+Java 17
+Spring Boot 3.3
+Spring Data JPA
+H2 Database
+REST APIs
+Maven
+HTML, CSS & JavaScript
+RSA-OAEP
+AES-256-GCM
+SHA-256
+JUnit
+Git & GitHub
+
+⭐ Key Features
+Offline payment packet routing
+Bluetooth-style mesh simulation
+RSA + AES hybrid encryption
+Duplicate payment prevention
+Replay and tamper protection
+Transactional debit/credit settlement
+Interactive web dashboard
+Concurrent payment testing
 
 ## Table of Contents
 
